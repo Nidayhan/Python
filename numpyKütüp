@@ -2,7 +2,7 @@ print("numpy")
 
 # numpy cok boyutlu dizilerde istatistiksel işlemleri gerceklestirmek için kullanılan elverişli bir kütüphanedir
 import numpy as np
-"""liste2=np.array([(1,2,3,4),(5,6,7,8),(9,10,11,12)])
+liste2=np.array([(1,2,3,4),(5,6,7,8),(9,10,11,12)])
 print(liste2)
 
 print(liste2.shape) #boyutu verir
@@ -34,7 +34,7 @@ d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
 print(a.ndim)  # dizinin kac boyuta sahip oldugunu söyler 
 print(b.ndim)  
 print(c.ndim) 
-print(d.ndim) """
+print(d.ndim) 
 
 
 arr=np.array(42)
