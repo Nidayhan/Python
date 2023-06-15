@@ -1,0 +1,20 @@
+print("numpy")
+
+# numpy cok boyutlu dizilerde istatistiksel işlemleri gerceklestirmek için kullanılan elverişli bir kütüphanedir
+import numpy as np
+liste2=np.array([(1,2,3,4),(5,6,7,8),(9,10,11,12)])
+print(liste2)
+
+print(liste2.shape) #boyutu verir
+print(liste2.size) #eleman sayısını verir
+
+liste3=np.arange(10) #elemanları 0dan 10a kadar olan bir matris olusturmasını istedik
+print(liste3)
+
+liste3=liste3.reshape(2,5) #matrisin boyutlarını belirledik
+print(liste3)
+
+
+random_matris=np.random.randint(20,70,15) #20 ve 70 arasında random 15 tane sayı uretir
+random_matris=random_matris.reshape(5,3)
+print(random_matris)

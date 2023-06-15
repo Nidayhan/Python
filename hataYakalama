@@ -8,3 +8,7 @@ except ValueError:
 
 except ZeroDivisionError:
     print("sayı sıfıra bölünemez.")
+
+
+
+# fonksiyon içindeki degiskenlere local degisken genel degiskenlere global degisken denir
