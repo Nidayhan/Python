@@ -2,7 +2,7 @@ print("numpy")
 
 # numpy cok boyutlu dizilerde istatistiksel işlemleri gerceklestirmek için kullanılan elverişli bir kütüphanedir
 import numpy as np
-liste2=np.array([(1,2,3,4),(5,6,7,8),(9,10,11,12)])
+"""liste2=np.array([(1,2,3,4),(5,6,7,8),(9,10,11,12)])
 print(liste2)
 
 print(liste2.shape) #boyutu verir
@@ -18,3 +18,27 @@ print(liste3)
 random_matris=np.random.randint(20,70,15) #20 ve 70 arasında random 15 tane sayı uretir
 random_matris=random_matris.reshape(5,3)
 print(random_matris)
+
+
+print("aritmetik: ",np.mean(random_matris))
+print("medyan: ",np.median(random_matris))
+print("varyans: ",np.var(random_matris))
+print("standart sapma: ", np.std(random_matris))
+
+
+a = np.array(42)
+b = np.array([1, 2, 3, 4, 5])
+c = np.array([[1, 2, 3], [4, 5, 6]])
+d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(a.ndim)  # dizinin kac boyuta sahip oldugunu söyler 
+print(b.ndim)  
+print(c.ndim) 
+print(d.ndim) """
+
+
+arr=np.array(42)
+print(arr)
+
+arr1=np.array([1,2,3,4])
+print(arr1)
